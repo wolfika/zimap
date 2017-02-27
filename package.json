@@ -1,0 +1,52 @@
+{
+  "name": "zimap",
+  "version": "0.0.1",
+  "description": "Gives stats about z-index leves used in your CSS",
+  "license": "MIT",
+  "repository": "wolfika/zimap",
+  "author": {
+    "name": "Máté Farkas",
+    "email": "farkas.mate38@gmail.com",
+    "url": "github.com/wolfika"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && nyc ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "css",
+    "cli",
+    "stats",
+    "statistics",
+    "analytics",
+    "stylesheets",
+    "mapping"
+  ],
+  "dependencies": {
+    "fs-promise": "^1.0.0",
+    "is-array": "^1.0.1",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "coveralls": "^2.11.12",
+    "nyc": "^7.1.0",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  }
+}

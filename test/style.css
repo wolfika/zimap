@@ -1,0 +1,19 @@
+.element1 {
+	z-index: 1;
+}
+
+.element2 {
+	z-index: 10;
+}
+
+.element3 {
+	z-index: 100;
+}
+
+.element4 {
+	z-index: 10;
+}
+
+.element5 {
+	z-index: -1;
+}
