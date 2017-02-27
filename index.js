@@ -1,3 +1,5 @@
+'use strict';
+
 const fs = require('fs-promise');
 
 const indicesRegex = /z-index\s*:\s*(\-?\d+);?/g;
