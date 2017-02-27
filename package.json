@@ -1,6 +1,6 @@
 {
   "name": "zimap",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Gives stats about z-index leves used in your CSS",
   "license": "MIT",
   "repository": "wolfika/zimap",
