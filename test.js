@@ -18,3 +18,10 @@ test('counts levels', t => {
 			t.true(Number.isInteger(stats.levels[0]));
 		});
 });
+
+test('throws Error when no input given', t => {
+	return fn()
+		.catch(err => {
+			t.true(err instanceof Error);
+		});
+});
